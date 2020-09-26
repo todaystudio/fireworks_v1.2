@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <title>Салюты в Сочи</title>
+</head>
+<body>
+   
+    <!-- modal -->
+<div class="modal-overlay">
+    <div class="modal">
+      
+      <a class="close-modal">
+        <svg viewBox="0 0 20 20" class="modal-close__svg">
+          <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+        </svg>
+      </a><!-- close modal -->
+  
+      <div class="modal-content">
+        <h3 class="modal-title">Заказать обратный звонок</h3>
+        <form action="#" id="contactForm1" class="modal-form">
+            <label for="contactForm1" class="modal-label">Наш менеджер свяжется с Вами в ближайшее время. По телефону можно получить консультацию по выбору салюта, оставить заявку на доставку или запуск фейерверка.</label>
+            <input type="text" class="contact-input modal__contact-input" placeholder="Имя">
+            <input type="text" class="contact-input modal__contact-input" placeholder="Телефон">
+            <button type="submit" class="contact-btn">Отправить</button>
+        </form>
+      </div><!-- content -->
+      
+    </div><!-- modal -->
+</div><!-- overlay -->
+
+    <main class="main">
+        
+        <header class="header_main" id="start">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <a href="tel:+79884199904" class="header_tel">+7 988 419 99 04</a>
+        </header>
+
+        <div class="offer_main">
+            <div class="offer_top">Фейерверки в Сочи</div>
+            <div class="offer_bot">
+                <ul class="offer-ul">
+                    <li>Любая сложность авторского шоу</li>
+                    <li>Поможем выбрать</li>
+                    <li>Привезем и взорвем</li>
+                </ul>
+            </div>
+            <div class="offer_btns">
+               <a href="#sectionCalc"><button class="offer_btn_no">Рассчитать on-line</button></a>
+                <button class="offer_btn_white modal-button opening-modal">Заказать звонок</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="./img/roznica.png" alt="" class="card-img">
+                <h3 class="card-title">Фейерверки и петарды <b>в розницу</b></h3>
+                <ul class="card-ul">
+                    <li>Батареи салютов</li>
+                    <li>Петарды</li>
+                    <li>Фонтаны и другое</li>
+                </ul>
+                <button class="card-btn opening-modal">
+                    Купить
+                </button>
+            </div>
+
+            <div class="card">
+                <img src="./img/autor-set.png" alt="" class="card-img sec-card">
+                <h3 class="card-title">Авторский пиротехнический <b>сет</b></h3>
+                <ul class="card-ul">
+                    <li>Работа любой сложности</li>
+                    <li>Большой опыт и проф. оборудование</li>
+                    <li>Индивидуальный подход</li>
+                </ul>
+                <button class="card-btn opening-modal">
+                    Купить
+                </button>
+            </div>
+        </div>
+
+        <section class="numbers">
+            <div class="numbers-item">
+                <p class="numbers-num">11</p>
+                <div class="numbers-line"></div>
+                <p class="numbers-p">лет на рынке</p>
+            </div>
+            <div class="numbers-item">
+                <p class="numbers-num">76</p>
+                <div class="numbers-line"></div>
+                <p class="numbers-p">запусков за 2020 год</p>
+            </div>
+            <div class="numbers-item">
+                <p class="numbers-num">8</p>
+                <div class="numbers-line"></div>
+                <p class="numbers-p">опытных специалистов</p>
+            </div>
+            <div class="numbers-item">
+                <p class="numbers-num">1<span>.</span>7<span>k</span></p>
+                <div class="numbers-line"></div>
+                <p class="numbers-p">позиций в каталоге</p>
+            </div>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+            <div class="gallery">
+                <img src="./img/Rectangle 10-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 10-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 9-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 9-1.png" alt="" class="gallery-img">
+            </div>
+            <div class="gallery">
+                <img src="./img/Rectangle 10-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 10-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 9-1.png" alt="" class="gallery-img">
+                <img src="./img/Rectangle 9-1.png" alt="" class="gallery-img">
+            </div>
+        </section>
+
+        <section class="calc-sec" id="sectionCalc">
+            <div class="calc-div">
+                <div class="calc-container">
+                    <h3 class="calc-title">Расчет стоимости</h3>
+                    
+                    <div class="calc-item">
+                        <div class="calc-item-label">
+                            <p class="">Количество залпов</p>
+                            <div class="calc-item-indicator"><span id="volleySpan">164</span>залпа</div>
+                        </div>
+                        <input type="range" name="countOfVolley" id="countOfVolley" class="calc-input-range" min="6" max="594" value="101">
+                        <div class="calc-under-count">
+                            <p>6</p>
+                            <p>594</p>
+                        </div>
+                    </div>
+
+                    <div class="calc-item">
+                        <div class="calc-item-label">
+                            <p class="">Длительность, сек</p>
+                            <div class="calc-item-indicator"><span id="timeSpan">55</span>секунд</div>
+                        </div>
+                        <input type="range" name="countOfVolley" id="countOfTime" class="calc-input-range" min="10" max="320" value="55">
+                        <div class="calc-under-count">
+                            <p>10</p>
+                            <p>320</p>
+                        </div>
+                    </div>
+
+                    <div class="calc-item">
+                        <div class="calc-item-label">
+                            <p class="">Калибр, дюйм</p>
+                            <div class="calc-item-indicator"><span id="calliberSpan">1,0</span>дюйм</div>
+                        </div>
+                        <input type="range" name="countOfCalliber" id="countOfCalliber" class="calc-input-range" min="0.4" max="3.0" value="1.0" step="0.1">
+                        <div class="calc-under-count">
+                            <p>0.4</p>
+                            <p>3.0</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="calc-btn obman1">Рассчитать</button>
+            </div>
+
+            <div class="calc-div2">
+                <div class="calc-container" style="height: 172px;">
+                    <h3 class="calc-title">Что-то ещё, кроме салюта</h3>
+                    <div class="calc-item second-calc">
+                        <p class="calc-item-title">Фонтанчики</p>
+                        <input id="cbx" type="checkbox"/>
+                        <label class="cbx" for="cbx">
+                        <div class="flip">
+                            <div class="front"></div>
+                            <div class="back">
+                            <svg width="16" height="14" viewBox="0 0 16 14">
+                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                            </svg>
+                            </div>
+                        </div>
+                        </label>
+                        <div class="calc-count-item-gr">
+                            <input type="text" class="calc-count-item">
+                            <p class="calc-item-subtext">шт</p>
+                        </div>
+                    </div>
+                
+                    <div class="calc-item second-calc">
+                        <p class="calc-item-title">Воздушные шары</p>
+                        <input id="cbx2" type="checkbox"/>
+                        <label class="cbx" for="cbx2">
+                        <div class="flip">
+                            <div class="front"></div>
+                            <div class="back">
+                            <svg width="16" height="14" viewBox="0 0 16 14">
+                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                            </svg>
+                            </div>
+                        </div>
+                        </label>
+                        <div class="calc-count-item-gr">
+                            <input type="text" class="calc-count-item">
+                            <p class="calc-item-subtext">шт</p>
+                        </div>
+                    </div>
+
+                    <div class="calc-item second-calc">
+                        <p class="calc-item-title">Светящиеся буквы</p>
+                        <input id="cbx3" type="checkbox"/>
+                        <label class="cbx" for="cbx3">
+                        <div class="flip">
+                            <div class="front"></div>
+                            <div class="back">
+                            <svg width="16" height="14" viewBox="0 0 16 14">
+                                <path d="M2 8.5L6 12.5L14 1.5"></path>
+                            </svg>
+                            </div>
+                        </div>
+                        </label>
+                        <div class="calc-count-item-gr">
+                            <input type="text" class="calc-count-item">
+                            <p class="calc-item-subtext">шт</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="calc-btn obman2">Рассчитать</button>
+                <div class="calc-sum">
+                    <p class="calc-sum-p">0₽</p>
+                    <p class="calc-sum-desc">приблизительная стоимость батареи или комплекса салютов, точные цены уточняйте у наших менеджеров</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-sec">
+
+            <div class="service" id="service">
+                <div class="service-img">
+                    <img src="./img/service-fireworks.png" alt="батареи салютов в Сочи">
+                </div>
+                <div class="service-text">
+                    <div class="service-title">
+                        <h4>Батареи салютов</h4>
+                    </div>
+                    <div class="service-value">
+                        <img src="./img/wallet.svg" class="service-svg"></img>
+                        <p class="service-coast">от 249 ₽</p>
+                        <p class="srvice-checkin opening-modal">Заказать</p>
+                    </div>
+                    <div class="service-desc">
+                        <p>Внезапно, диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Противоположная точка зрения подразумевает, что интерактивные прототипы являются только методом политического участия и описаны максимально подробно. Базовые сценарии поведения пользователей, вне зависимости от их уровня, должны быть призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что существующая теория не даёт нам иного выбора, кроме определения новых предложений.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-img">
+                    <img src="./img/Rectangle 17service.png" alt="петарды в Сочи">
+                </div>
+                <div class="service-text">
+                    <div class="service-title">
+                        <h4>Мелкая пиротехника</h4>
+                    </div>
+                    <div class="service-value">
+                        <img src="./img/wallet.svg" class="service-svg"></img>
+                        <p class="service-coast">от 29 ₽</p>
+                        <p class="srvice-checkin opening-modal">Заказать</p>
+                    </div>
+                    <div class="service-desc">
+                        <p>Внезапно, диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Противоположная точка зрения подразумевает, что интерактивные прототипы являются только методом политического участия и описаны максимально подробно. Базовые сценарии поведения пользователей, вне зависимости от их уровня, должны быть призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что существующая теория не даёт нам иного выбора, кроме определения новых предложений.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-img">
+                    <img src="./img/Rectangle 17service-1.png" alt="батареи салютов в Сочи">
+                </div>
+                <div class="service-text">
+                    <div class="service-title">
+                        <h4>Светящиеся буквы</h4>
+                    </div>
+                    <div class="service-value">
+                        <img src="./img/wallet.svg" class="service-svg"></img>
+                        <p class="service-coast">от 1890 ₽</p>
+                        <p class="srvice-checkin opening-modal">Заказать</p>
+                    </div>
+                    <div class="service-desc">
+                        <p>Внезапно, диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Противоположная точка зрения подразумевает, что интерактивные прототипы являются только методом политического участия и описаны максимально подробно. Базовые сценарии поведения пользователей, вне зависимости от их уровня, должны быть призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что существующая теория не даёт нам иного выбора, кроме определения новых предложений.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-img">
+                    <img src="./img/Rectangle 17service-2.png" alt="батареи салютов в Сочи">
+                </div>
+                <div class="service-text">
+                    <div class="service-title">
+                        <h4>Фонтаны холодного огня</h4>
+                    </div>
+                    <div class="service-value">
+                        <img src="./img/wallet.svg" class="service-svg"></img>
+                        <p class="service-coast">от 249 ₽</p>
+                        <p class="srvice-checkin opening-modal">Заказать</p>
+                    </div>
+                    <div class="service-desc">
+                        <p>Внезапно, диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Противоположная точка зрения подразумевает, что интерактивные прототипы являются только методом политического участия и описаны максимально подробно. Базовые сценарии поведения пользователей, вне зависимости от их уровня, должны быть призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что существующая теория не даёт нам иного выбора, кроме определения новых предложений.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-img">
+                    <img src="./img/Rectangle 17service-3.png" alt="батареи салютов в Сочи">
+                </div>
+                <div class="service-text">
+                    <div class="service-title">
+                        <h4>Воздушные шары</h4>
+                    </div>
+                    <div class="service-value">
+                        <img src="./img/wallet.svg" class="service-svg"></img>
+                        <p class="service-coast">от 249 ₽</p>
+                        <p class="srvice-checkin opening-modal">Заказать</p>
+                    </div>
+                    <div class="service-desc">
+                        <p>Внезапно, диаграммы связей рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Противоположная точка зрения подразумевает, что интерактивные прототипы являются только методом политического участия и описаны максимально подробно. Базовые сценарии поведения пользователей, вне зависимости от их уровня, должны быть призваны к ответу. В своём стремлении повысить качество жизни, они забывают, что существующая теория не даёт нам иного выбора, кроме определения новых предложений.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="social numbers">
+            <p class="social-text">Подписывайся на нас в соц сетях, чтобы не пропустить акции и скидки</p>
+            <div class="social-icon">
+                <a href="#" class="social-img"><img class="scale-img" src="./img/001-instagram.png" alt="instagram"></a>
+                <a href="#" class="social-img"><img class="scale-img" src="./img/002-vk.png" alt="vk"></a>
+            </div>
+        </div>
+
+        <section class="advantages-sec">
+            <div class="advantages-item">
+                <div class="advantages-imgbox">
+                    <img src="./img/Group 52.png" alt="" class="advantages-img scale-img">
+                </div>
+                <div class="advantages-text">
+                    <p>У нас весь товар сертифицирован</p>
+                </div>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-imgbox">
+                    <img src="./img/Group 49.png" alt="" class="advantages-img scale-img">
+                </div>
+                <div class="advantages-text">
+                    <p>Удобные способы оплаты</p>
+                </div>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-imgbox">
+                    <img src="./img/Group 50.png" alt="" class="advantages-img scale-img">
+                </div>
+                <div class="advantages-text">
+                    <p>Постоянные акции и скидки</p>
+                </div>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-imgbox">
+                    <img src="./img/Group 51.png" alt="" class="advantages-img scale-img">
+                </div>
+                <div class="advantages-text">
+                    <p>Опытные пиротехники</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients-sec" id="clients">
+            <h5 class="section-title">Наши клиенты</h5>
+            <div class="clients">
+                <img src="./img/image 4.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 5.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 6.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 7.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 10.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 9.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 10.png" alt="" class="clients-img scale-img">
+                <img src="./img/image 11.png" alt="" class="clients-img scale-img">
+            </div>
+        </section>
+        <h5 id="sale" class="section-title" style="margin-top: 80px;">Акции и скидки</h5>
+        <section class="sale">
+            
+            <div class="sale-cards">
+                <div class="sale-card">
+                    <img src="./img/Rectangle 18.png" alt="">
+                    <h4 class="sale-card-title">Салют "Федерация"</h4>
+                    <p class="sale-card-subtitle">"Русская Пиротехника"</p>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во эффектов</p>
+                        <p class="sale-card-inforow-value">21</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Калибр</p>
+                        <p class="sale-card-inforow-value">1,25</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во залпов</p>
+                        <p class="sale-card-inforow-value">200</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Время работы</p>
+                        <p class="sale-card-inforow-value">120</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Высота взрыва</p>
+                        <p class="sale-card-inforow-value">60</p>
+                    </div>               
+                    <p class="sale-card-oldcost">29 800₽</p>
+                    <p class="sale-card-newcost">25 390₽</p>
+                    <button class="sale-card-btn opening-modal">Купить</button>
+                </div>
+
+                <div class="sale-card">
+                    <img src="./img/Rectangle 18.png" alt="">
+                    <h4 class="sale-card-title">Салют "Федерация"</h4>
+                    <p class="sale-card-subtitle">"Русская Пиротехника"</p>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во эффектов</p>
+                        <p class="sale-card-inforow-value">21</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Калибр</p>
+                        <p class="sale-card-inforow-value">1,25</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во залпов</p>
+                        <p class="sale-card-inforow-value">200</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Время работы</p>
+                        <p class="sale-card-inforow-value">120</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Высота взрыва</p>
+                        <p class="sale-card-inforow-value">60</p>
+                    </div>               
+                    <p class="sale-card-oldcost">29 800₽</p>
+                    <p class="sale-card-newcost">25 390₽</p>
+                    <button class="sale-card-btn opening-modal">Купить</button>
+                </div>
+
+                <div class="sale-card">
+                    <img src="./img/Rectangle 18.png" alt="">
+                    <h4 class="sale-card-title">Салют "Федерация"</h4>
+                    <p class="sale-card-subtitle">"Русская Пиротехника"</p>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во эффектов</p>
+                        <p class="sale-card-inforow-value">21</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Калибр</p>
+                        <p class="sale-card-inforow-value">1,25</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Кол-во залпов</p>
+                        <p class="sale-card-inforow-value">200</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Время работы</p>
+                        <p class="sale-card-inforow-value">120</p>
+                    </div>
+                    <div class="sale-card-inforow">
+                        <p class="sale-card-inforow-name">Высота взрыва</p>
+                        <p class="sale-card-inforow-value">60</p>
+                    </div>               
+                    <p class="sale-card-oldcost">29 800₽</p>
+                    <p class="sale-card-newcost">25 390₽</p>
+                    <button class="sale-card-btn opening-modal">Купить</button>
+                </div>
+            </div>
+        </section>
+    <h5 id="contacts" class="section-title">Контакты</h5>
+        <section class="contacts">
+            <div class="contacts-info">
+                <a href="tel:+79884199904" class="contacts-tel">+7 (988) 419-99-04</a>
+                <p class="contacts-adress contacts-tel">г. Сочи, ул. Юнных Ленинцев, 14, бокс 25.</p>
+                <div class="contacts-social">
+                    <a href="http://"><img src="./img/001-instagram.png" alt="" class="contacts-social-logo"></a>
+                    <a href="http://"><img src="./img/002-vk.png" alt="" class="contacts-social-logo"></a>
+                </div>
+                <form action="#" id="contactForm2" class="contacts-form contacts-form-r">
+                    <label for="contactForm2">Заказать звонок</label>
+                    <input type="text" class="contact-input" placeholder="Имя">
+                    <input type="text" class="contact-input" placeholder="Телефон">
+                    <button type="submit" class="contact-btn">Отправить</button>
+                </form>
+            </div>
+            <div class="contacts-map">
+                <a class="dg-widget-link" href="http://2gis.ru/sochi/profiles/4222652931743190,70000001043355294/center/39.72825229167938,43.598970966327585/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Сочи</a><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":742,"height":432,"borderColor":"#a3a3a3","pos":{"lat":43.598970966327585,"lon":39.72825229167938,"zoom":17},"opt":{"city":"sochi"},"org":[{"id":"4222652931743190"},{"id":"70000001043355294"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="footer-info">
+                    <img src="./img/logo.png" alt="">
+                    <p class="footer-info-text"><b>ИП Хапаев О.О.</b> ОГРН 1516487 ИНН 4896148413</p>
+                    <a href="tel:+79884199904"><p class="footer-info-text">+7 (988) 419-99-04</p></a>
+                    <p class="footer-info-text">г. Сочи, ул. Юнных Ленинцев, 14, бокс 25.</p>
+                    <div class="contacts-social">
+                        <a href="http://"><img src="./img/001-instagram.png" alt="" class="contacts-social-logo"></a>
+                        <a href="http://"><img src="./img/002-vk.png" alt="" class="contacts-social-logo"></a>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu-ul">
+                        <a href="#start"><li class="footer-menu-li">Начало</li></a>
+                        <a href="#gallery"><li class="footer-menu-li">Галлерея</li></a>
+                        <a href="#service"><li class="footer-menu-li">Услуги</li></a>
+                        <a href="#sectionCalc"><li class="footer-menu-li">Расчет стоимости</li></a>
+                        <a href="#sale"><li class="footer-menu-li">Акции</li></a>
+                        <a href="#clients"><li class="footer-menu-li">Клиенты</li></a>
+                        <a href="#contacts"><li class="footer-menu-li">Контакты</li></a>
+                    </ul>
+                </div>
+                <div class="footer-form">
+                    <form action="#" id="contactForm3" class="contacts-form footer-form-form">
+                        <label for="contactForm3">Заказать звонок</label>
+                        <input type="text" class="contact-input" placeholder="Имя">
+                        <input type="text" class="contact-input" placeholder="Телефон">
+                        <button type="submit" class="contact-btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            
+        </footer>
+        
+    </main>
+<script src="./js/main.js"></script>
+</body>
+</html>
