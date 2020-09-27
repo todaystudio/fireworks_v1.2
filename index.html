@@ -12,8 +12,8 @@
 <body>
    
     <!-- modal -->
-<div class="modal-overlay">
-    <div class="modal">
+<div class="modal-overlay" id="modal-overlay1">
+    <div class="modal" id="modal1">
       
       <a class="close-modal">
         <svg viewBox="0 0 20 20" class="modal-close__svg">
@@ -21,7 +21,7 @@
         </svg>
       </a><!-- close modal -->
   
-      <div class="modal-content">
+      <div class="modal-content" id="modal-content1">
         <h3 class="modal-title">Заказать обратный звонок</h3>
         <form action="#" id="contactForm1" class="modal-form">
             <label for="contactForm1" class="modal-label">Наш менеджер свяжется с Вами в ближайшее время. По телефону можно получить консультацию по выбору салюта, оставить заявку на доставку или запуск фейерверка.</label>
@@ -33,6 +33,23 @@
       
     </div><!-- modal -->
 </div><!-- overlay -->
+
+<div class="modal-overlay" id="modal-overlay2">
+    <div class="modal" id="modal2">
+      
+      <a class="close-modal close-modal2">
+        <svg viewBox="0 0 20 20" class="modal-close__svg">
+          <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+        </svg>
+      </a><!-- close modal -->
+  
+      <div class="modal-content modal-content2">
+        
+      </div><!-- content -->
+      
+    </div><!-- modal -->
+</div><!-- overlay -->
+
 
     <main class="main">
         
@@ -165,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="calc-btn obman1">Рассчитать</button>
+                <button class="calc-btn obman1" id="calcBtn">Рассчитать</button>
             </div>
 
             <div class="calc-div2">
@@ -185,7 +202,7 @@
                         </div>
                         </label>
                         <div class="calc-count-item-gr">
-                            <input type="text" class="calc-count-item">
+                            <input type="text" class="calc-count-item" id="fontansInput" disabled="disabled">
                             <p class="calc-item-subtext">шт</p>
                         </div>
                     </div>
@@ -204,7 +221,7 @@
                         </div>
                         </label>
                         <div class="calc-count-item-gr">
-                            <input type="text" class="calc-count-item">
+                            <input type="text" class="calc-count-item" id="baloonsInput" disabled="disabled">
                             <p class="calc-item-subtext">шт</p>
                         </div>
                     </div>
@@ -223,7 +240,7 @@
                         </div>
                         </label>
                         <div class="calc-count-item-gr">
-                            <input type="text" class="calc-count-item">
+                            <input type="text" class="calc-count-item" id="lettersInput" disabled="disabled">
                             <p class="calc-item-subtext">шт</p>
                         </div>
                     </div>
@@ -541,5 +558,6 @@
         
     </main>
 <script src="./js/main.js"></script>
+<script src="./js/approve.min.js"></script>
 </body>
 </html>
